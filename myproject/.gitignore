@@ -1,0 +1,102 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.mo
+*.db
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Environment variables
+.env
+.env.*
+
+# Secret config files
+secrets.json
+
+# Media & Static (optional if using in dev)
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Pip dependency files
+pip-log.txt
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# pytest
+.cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# build files
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# Wheels
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+junitxml/
+test-output/
+
+# Docker
+*.pid
+*.tar
+*.bak
+.docker/
+
+# System files
+Thumbs.db
+ehthumbs.db
