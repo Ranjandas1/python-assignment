@@ -49,6 +49,12 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+### 5. Run the project
+
+```
+python manage.py runserver
+```
+
 ### Api Endpoints
 
 | Method | Endpoint                                                                                           | Description                 |
